@@ -28,14 +28,14 @@ public class DepartmentHeadSearchCommand extends CommandWorkingWithDepartment {
             }
             try {
                 Lecturer departmentHead = departmentService.getHeadOfDepartment(userValue);
-                showMessageResult(userValue, departmentHead);
+                showResultMessage(userValue, departmentHead);
             } catch (NoSuchElementException e) {
                 showErrorMessage("Department " + userValue + " not found.");
             }
         }
     }
 
-    private void showMessageResult(String userValue, Lecturer departmentHead) {
+    private void showResultMessage(String userValue, Lecturer departmentHead) {
         System.out.println();
         System.out.println("Head of " + userValue + " department is "
                 + departmentHead.getLastName() + " " + departmentHead.getFirstName());

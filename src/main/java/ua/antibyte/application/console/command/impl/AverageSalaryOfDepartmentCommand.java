@@ -29,14 +29,14 @@ public class AverageSalaryOfDepartmentCommand extends CommandWorkingWithDepartme
             try {
                 BigDecimal averageSalaryOfDepartment
                         = departmentService.getAverageSalaryOfDepartment(userValue);
-                showMessageResult(userValue, averageSalaryOfDepartment);
+                showResultMessage(userValue, averageSalaryOfDepartment);
             } catch (NoSuchElementException e) {
                 showErrorMessage("Department " + userValue + " not found.");
             }
         }
     }
 
-    private void showMessageResult(String userValue, BigDecimal averageSalaryOfDepartment) {
+    private void showResultMessage(String userValue, BigDecimal averageSalaryOfDepartment) {
         System.out.println();
         System.out.println("The average salary of " + userValue
                 + " is " + averageSalaryOfDepartment);
