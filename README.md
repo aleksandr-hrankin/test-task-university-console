@@ -17,8 +17,8 @@ from the database.
 
 1) *Download and install* the [JDK](https://www.oracle.com/java/technologies/javase-downloads.html, "Download JDK") <br>
 2) *Download and install* the [IDE Intellij Idea](https://www.jetbrains.com/ru-ru/idea/download/#section=windows, "Download IDE") <br>
-3) Clone this project
-4) Run a project
+3) [Clone this project](https://github.com/aleksandr-hrankin/test-task-university-console.git, "Clone this project") <br>
+4) Run a project <br>
 
 ### Command list
 [h] - help <br>
