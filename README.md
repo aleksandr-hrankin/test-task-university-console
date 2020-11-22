@@ -13,7 +13,7 @@ from the database.
 + Maven 
 + Checkstyle plugin
 
-### To start the project you need: 
+### Installing: 
 
 ##### Fast start / Running the application with Maven
 $ git clone https://github.com/aleksandr-hrankin/test-task-university-console.git <br>
