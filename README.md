@@ -32,7 +32,7 @@ from the database.
 
 ### Data
 Data about departments and lecturers is created in the ua.antibyte.application.service.inject.DefaultDataInject class. <br>
-By default, 5 departments are created:
+5 departments are created by default:
 + [math] - department of mathematics
 + [physic] - department of physics
 + [chem] - department of chemistry
