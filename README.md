@@ -13,11 +13,18 @@ from the database.
 + Maven 
 + Checkstyle plugin
 
-### To start the project you need: 
+### Installing: 
 
+##### Fast start / Running the application with Maven
+$ git clone https://github.com/aleksandr-hrankin/test-task-university-console.git <br>
+$ cd test-task-university-console <br>
+$ mvn spring-boot:run <br>
+
+##### Running the application with IDE
 1) *Download and install* the [JDK](https://www.oracle.com/java/technologies/javase-downloads.html, "Download JDK") <br>
 2) *Download and install* the [IDE Intellij Idea](https://www.jetbrains.com/ru-ru/idea/download/#section=windows, "Download IDE") <br>
 3) Clone this project
+4) Add Run/Debug Configurations or File -> Invalidate Caches / Restart ...
 4) Run a project
 
 ### Command list
