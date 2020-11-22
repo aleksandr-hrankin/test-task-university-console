@@ -15,10 +15,17 @@ from the database.
 
 ### To start the project you need: 
 
+##### Fast start
+$ git clone https://github.com/aleksandr-hrankin/test-task-university-console.git
+$ cd test-task-university-console
+$ mvn spring-boot:run
+
+##### Start in IDE
 1) *Download and install* the [JDK](https://www.oracle.com/java/technologies/javase-downloads.html, "Download JDK") <br>
 2) *Download and install* the [IDE Intellij Idea](https://www.jetbrains.com/ru-ru/idea/download/#section=windows, "Download IDE") <br>
 3) Clone this project
-4) Run a project or enter [mvn spring-boot:run] into the console
+4) Add Run/Debug Configurations or File -> Invalidate Caches / Restart ...
+4) Run a project
 
 ### Command list
 [h] - help <br>
