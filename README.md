@@ -28,14 +28,14 @@ $ mvn spring-boot:run <br>
 4) Run a project
 
 ### Command list
-[h] - help <br>
-[avg] - show average salary for the department <br>
-[d-head] - show head of department <br>
-[d-stats] - show department statistic <br>
-[s] - global search by template <br>
-[d-num] - show count of employees for department <br>
-[back] - come back <br>
-[q] - quit <br>
++ [h] - help <br>
++ [avg] - show average salary for the department <br>
++ [d-head] - show head of department <br>
++ [d-stats] - show department statistic <br>
++ [s] - global search by template <br>
++ [d-num] - show count of employees for department <br>
++ [back] - come back <br>
++ [q] - quit <br>
 
 ### Data
 Data about departments and lecturers is created in the ua.antibyte.application.service.inject.DefaultDataInject class. <br>
